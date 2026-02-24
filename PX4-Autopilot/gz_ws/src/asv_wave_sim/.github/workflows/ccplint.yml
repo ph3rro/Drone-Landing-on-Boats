@@ -1,0 +1,50 @@
+# GitHub Action to run cpplint
+# 
+# The cpplint configuration file is:
+# 
+#   ./CPPLINT.cfg
+#
+name: Cpplint
+
+on: [push, pull_request]
+
+jobs:
+  cpplint:
+    runs-on: ubuntu-latest
+    name: Cpplint
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install Cpplint
+        run: |
+          pip install cpplint
+      - name: Cpplint Core Library
+        run: |
+          cpplint ./gz-waves/include/gz/waves/*.hh
+          cpplint ./gz-waves/src/*.cc ./gz-waves/src/*.hh
+      - name: Cpplint Tests
+        run: |
+          cpplint ./gz-waves/test/performance/*.cc
+          cpplint ./gz-waves/test/plots/*.cc
+      - name: Cpplint Hydrodynamics Plugin
+        run: |
+          cpplint --filter=-whitespace/blank_line,-whitespace/indent,-build/header_guard,-whitespace/newline \
+            ./gz-waves/src/systems/hydrodynamics/*.hh \
+            ./gz-waves/src/systems/hydrodynamics/*.cc
+      - name: Cpplint DynamicGeometry Plugin
+        run: |
+          cpplint --filter=-whitespace/blank_line,-whitespace/indent,-build/header_guard \
+            ./gz-waves/src/systems/dynamic/*.hh \
+            ./gz-waves/src/systems/dynamic/*.cc
+      - name: Cpplint Waves Plugin
+        run: |
+          cpplint --filter=-whitespace/blank_line,-whitespace/indent \
+            ./gz-waves/include/gz/common/*.hh
+          cpplint --filter=-whitespace/blank_line,-whitespace/indent,-build/header_guard \
+            ./gz-waves/src/systems/waves/*.hh
+          cpplint --filter=-whitespace/blank_line,-whitespace/indent,-build/header_guard,-whitespace/newline \
+            ./gz-waves/src/systems/waves/*.cc

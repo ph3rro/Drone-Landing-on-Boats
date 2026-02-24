@@ -1,0 +1,180 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_gz_add_library_or_component",
+			"gz_create_core_library",
+			"_gz_create_cmake_package",
+			"_gz_create_pkgconfig"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzCreateCoreLibrary.cmake",
+			"src/CMakeLists.txt",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 165,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 9
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/gz/asv_sim2/gz/asv_sim/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/include/gz/asv_sim/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/gz/asv_sim2/gz/asv_sim",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/include/gz/asv_sim/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libasv_sim2.so.2.0.0",
+				"lib/libasv_sim2.so.2"
+			],
+			"targetId" : "asv_sim2::@145eef247bfb46b6828c",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libasv_sim2.so"
+			],
+			"targetId" : "asv_sim2::@145eef247bfb46b6828c",
+			"targetIndex" : 30,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "cmake",
+			"destination" : "lib/cmake/asv_sim2",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/cmake/asv_sim2-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/cmake/asv_sim2-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/asv_sim2",
+			"exportName" : "asv_sim2",
+			"exportTargets" : 
+			[
+				{
+					"id" : "asv_sim2::@145eef247bfb46b6828c",
+					"index" : 30
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/3b99dbaa9cbd534984e1ededb2fc5ce3/asv_sim2-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/cmake/pkgconfig/asv_sim2.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

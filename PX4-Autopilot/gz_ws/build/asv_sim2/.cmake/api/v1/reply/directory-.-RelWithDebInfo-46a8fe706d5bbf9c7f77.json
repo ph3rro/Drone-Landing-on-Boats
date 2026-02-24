@@ -1,0 +1,92 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_gz_create_cmake_package",
+			"_gz_export_target_all",
+			"gz_configure_build"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 287,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 127,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 343,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 371,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "cmake",
+			"destination" : "lib/cmake/asv_sim2-all",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/cmake/asv_sim2-all-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/cmake/asv_sim2-all-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/asv_sim2-all",
+			"exportName" : "asv_sim2-all",
+			"exportTargets" : 
+			[
+				{
+					"id" : "asv_sim2-all::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/799acb9fb9424b2dc8c2c7b4449af8c6/asv_sim2-all-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

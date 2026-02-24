@@ -1,0 +1,188 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_gz_add_library_or_component",
+			"gz_add_component",
+			"gz_add_system",
+			"_gz_create_cmake_package",
+			"_gz_create_pkgconfig"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzAddComponent.cmake",
+			"src/systems/CMakeLists.txt",
+			"src/systems/dynamic/CMakeLists.txt",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 343,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 371,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 228,
+				"parent" : 10
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/dynamic-geometry-system/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/dynamic-geometry-system/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/dynamic-geometry-system",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/dynamic-geometry-system/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-dynamic-geometry-system.so.1.0.0",
+				"lib/libgz-waves1-dynamic-geometry-system.so.1"
+			],
+			"targetId" : "gz-waves1-dynamic-geometry-system::@3ea48e7da6208adb0122",
+			"targetIndex" : 60,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-dynamic-geometry-system.so"
+			],
+			"targetId" : "gz-waves1-dynamic-geometry-system::@3ea48e7da6208adb0122",
+			"targetIndex" : 60,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves1-dynamic-geometry-system",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-dynamic-geometry-system-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-dynamic-geometry-system-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves1-dynamic-geometry-system",
+			"exportName" : "gz-waves1-dynamic-geometry-system",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves1-dynamic-geometry-system::@3ea48e7da6208adb0122",
+					"index" : 60
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/dynamic/CMakeFiles/Export/53d0f207c81dd19cc06acd6b23c0113c/gz-waves1-dynamic-geometry-system-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/pkgconfig/gz-waves1-dynamic-geometry-system.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/systems/dynamic",
+		"source" : "src/systems/dynamic"
+	}
+}

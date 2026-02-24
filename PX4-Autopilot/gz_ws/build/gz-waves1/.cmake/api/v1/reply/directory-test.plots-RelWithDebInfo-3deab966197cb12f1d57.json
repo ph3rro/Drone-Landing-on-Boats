@@ -1,0 +1,93 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"test/plots/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/PLOT_GnuPlotExample"
+			],
+			"targetId" : "PLOT_GnuPlotExample::@c797e479b389c98e8409",
+			"targetIndex" : 36,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/PLOT_LinearRandomFFTWaves"
+			],
+			"targetId" : "PLOT_LinearRandomFFTWaves::@c797e479b389c98e8409",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/PLOT_LinearRandomWaves"
+			],
+			"targetId" : "PLOT_LinearRandomWaves::@c797e479b389c98e8409",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/PLOT_LinearRegularWaves"
+			],
+			"targetId" : "PLOT_LinearRegularWaves::@c797e479b389c98e8409",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/PLOT_WaveSpectrum"
+			],
+			"targetId" : "PLOT_WaveSpectrum::@c797e479b389c98e8409",
+			"targetIndex" : 40,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "test/plots",
+		"source" : "test/plots"
+	}
+}

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/asv_sim2
+
+Name: Gazebo asv_sim mooring-system
+Description: A set of asv_sim mooring-system classes for robot applications
+Version: 2.0.0
+Requires: 
+Requires.private: 
+Libs: -L${libdir} -lasv_sim2-mooring-system 
+Libs.private: 
+CFLags: -I${includedir} 

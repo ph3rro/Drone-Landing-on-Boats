@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/asv_sim2
+
+Name: Gazebo asv_sim
+Description: A set of asv_sim classes for robot applications
+Version: 2.0.0
+Requires: gz-cmake3 >= 1.1 gz-math7 gz-plugin2 gz-common5 gz-msgs10 gz-transport13 gz-sensors8 gz-sim8 sdformat14
+Requires.private: 
+Libs: -L${libdir} -lasv_sim2 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

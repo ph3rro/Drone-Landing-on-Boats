@@ -1,0 +1,10 @@
+precision_land:
+  ros__parameters:
+    descent_vel: 0.5
+    vel_p_gain: 1.7
+    vel_i_gain: 0.0
+    max_velocity: 4.0
+    target_timeout: 7.0
+    delta_position: 0.3
+    delta_velocity: 0.3
+    velocity_filter_alpha: 1.0

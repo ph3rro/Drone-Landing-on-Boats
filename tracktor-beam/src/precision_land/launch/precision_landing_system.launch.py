@@ -1,0 +1,107 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
+from launch.substitutions import PathJoinSubstitution, LaunchConfiguration
+from launch.actions import DeclareLaunchArgument
+from launch.conditions import IfCondition
+
+def generate_launch_description():
+    # Declare launch argument for enabling visualization
+    enable_viz_arg = DeclareLaunchArgument(
+        'enable_gazebo_viz',
+        default_value='true',
+        description='Enable Gazebo marker visualization (simulation only)'
+    )
+
+    return LaunchDescription([
+        enable_viz_arg,
+        # Bridge camera image from Gazebo to ROS2
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            name='image_bridge',
+            arguments=[
+                '/world/waves/model/x500_gimbal_0/link/camera_link/sensor/camera/image@sensor_msgs/msg/Image@gz.msgs.Image'
+            ],
+            output='screen',
+        ),
+        # Bridge camera info from Gazebo to ROS2
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            name='camera_info_bridge',
+            arguments=[
+                '/world/waves/model/x500_gimbal_0/link/camera_link/sensor/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo'
+            ],
+            output='screen',
+        ),
+        # Bridge processed image from ROS2 to Gazebo for visualization
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            name='image_proc_bridge',
+            arguments=[
+                '/image_proc@sensor_msgs/msg/Image[gz.msgs.Image'
+            ],
+            parameters=[{
+                'qos_overrides./image_proc.subscription.reliability': 'best_effort',
+                'qos_overrides./image_proc.publisher.reliability': 'best_effort'
+            }],
+            output='screen',
+        ),
+        # Bridge WAM-V GPS from ROS2 to Gazebo
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            name='wamv_gps_bridge',
+            arguments=[
+                '/wamv/gps/navsat@sensor_msgs/msg/NavSatFix@gz.msgs.NavSat'
+            ],
+            output='screen',
+        ),
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            name='wamv_odom_bridge',
+            arguments=[
+                # Syntax: /topic@ROS_TYPE@GAZEBO_TYPE
+                # NOTE: Ensure '/wamv/odometry' matches the actual Gazebo topic name. 
+                # If using standard VRX/Gazebo, it might be '/model/wamv/odometry'.
+                '/model/wamv/odometry@nav_msgs/msg/Odometry@gz.msgs.Odometry'
+            ],
+            # ADD THIS SECTION
+            parameters=[{
+                'qos_overrides./wamv/odometry.subscriber.reliability': 'best_effort'
+            }],
+            output='screen',
+        ),
+
+        # Aruco tracker node
+        Node(
+            package='aruco_tracker',
+            executable='aruco_tracker',
+            name='aruco_tracker',
+            output='screen',
+            parameters=[
+                PathJoinSubstitution([FindPackageShare('aruco_tracker'), 'cfg', 'params.yaml'])
+            ]
+        ),
+        # Precision landing node
+        Node(
+            package='precision_land',
+            executable='precision_land',
+            name='precision_land',
+            output='screen',
+            parameters=[
+                PathJoinSubstitution([FindPackageShare('precision_land'), 'cfg', 'params.yaml'])
+            ]
+        ),
+        # Gazebo visualization node (simulation only)
+        Node(
+            package='precision_land_viz',
+            executable='tag_pose_visualizer',
+            name='tag_pose_visualizer',
+            output='screen',
+            condition=IfCondition(LaunchConfiguration('enable_gazebo_viz'))
+        ),
+    ])

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/waves1
+
+Name: Gazebo waves hydrodynamics-system
+Description: A set of waves hydrodynamics-system classes for robot applications
+Version: 1.0.0
+Requires: 
+Requires.private: 
+Libs: -L${libdir} -lgz-waves1-hydrodynamics-system 
+Libs.private: 
+CFLags: -I${includedir} 

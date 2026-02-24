@@ -1,0 +1,632 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_gz_add_library_or_component",
+			"gz_add_component",
+			"_gz_create_cmake_package",
+			"_gz_create_pkgconfig",
+			"gz_add_system"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzAddComponent.cmake",
+			"src/systems/waves/CMakeLists.txt",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+			"src/systems/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 47,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 27
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 30
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 47,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 34
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 38
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 41
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/rendering/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/rendering/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-rendering.so.1.0.0",
+				"lib/libgz-waves1-rendering.so.1"
+			],
+			"targetId" : "gz-waves1-rendering::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 62,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-rendering.so"
+			],
+			"targetId" : "gz-waves1-rendering::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 62,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves1-rendering",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-rendering-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-rendering-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves1-rendering",
+			"exportName" : "gz-waves1-rendering",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves1-rendering::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 62
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/79255f64ce39bd6f2a749a65c0605aca/gz-waves1-rendering-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/pkgconfig/gz-waves1-rendering.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering-ogre2/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/rendering-ogre2/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/rendering-ogre2",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/rendering-ogre2/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-rendering-ogre2.so.1.0.0",
+				"lib/libgz-waves1-rendering-ogre2.so.1"
+			],
+			"targetId" : "gz-waves1-rendering-ogre2::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 63,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-rendering-ogre2.so"
+			],
+			"targetId" : "gz-waves1-rendering-ogre2::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 63,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves1-rendering-ogre2",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-rendering-ogre2-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-rendering-ogre2-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves1-rendering-ogre2",
+			"exportName" : "gz-waves1-rendering-ogre2",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves1-rendering-ogre2::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 63
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/b58ecaf284d03b5477d284d0202b06d0/gz-waves1-rendering-ogre2-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/pkgconfig/gz-waves1-rendering-ogre2.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-visual-system/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/waves-visual-system/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-visual-system",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/waves-visual-system/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-waves-visual-system.so.1.0.0",
+				"lib/libgz-waves1-waves-visual-system.so.1"
+			],
+			"targetId" : "gz-waves1-waves-visual-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 65,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-waves-visual-system.so"
+			],
+			"targetId" : "gz-waves1-waves-visual-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 65,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves1-waves-visual-system",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-waves-visual-system-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-waves-visual-system-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves1-waves-visual-system",
+			"exportName" : "gz-waves1-waves-visual-system",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves1-waves-visual-system::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 65
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/eccb94b5fc81c051139c852a2c54fcf1/gz-waves1-waves-visual-system-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/pkgconfig/gz-waves1-waves-visual-system.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-model-system/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/waves-model-system/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/waves-model-system",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/waves-model-system/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-waves-model-system.so.1.0.0",
+				"lib/libgz-waves1-waves-model-system.so.1"
+			],
+			"targetId" : "gz-waves1-waves-model-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 64,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1-waves-model-system.so"
+			],
+			"targetId" : "gz-waves1-waves-model-system::@4d9f8f20e6e3f8a0bb8e",
+			"targetIndex" : 64,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves1-waves-model-system",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-waves-model-system-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-waves-model-system-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves1-waves-model-system",
+			"exportName" : "gz-waves1-waves-model-system",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves1-waves-model-system::@4d9f8f20e6e3f8a0bb8e",
+					"index" : 64
+				}
+			],
+			"paths" : 
+			[
+				"src/systems/waves/CMakeFiles/Export/86ce1808e3038ed9d8300af932f9483c/gz-waves1-waves-model-system-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/pkgconfig/gz-waves1-waves-model-system.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/systems/waves",
+		"source" : "src/systems/waves"
+	}
+}

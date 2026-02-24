@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/waves1
+
+Name: Gazebo waves
+Description: A set of waves classes for robot applications
+Version: 1.0.0
+Requires: gz-cmake3 >= 1.1 gz-math7 gz-plugin2 gz-common5 gz-msgs10 gz-transport13 gz-rendering8 gz-sim8 sdformat14
+Requires.private: 
+Libs: -L${libdir} -lgz-waves1 
+Libs.private: 
+CFlags: -I${includedir} -std=c++17

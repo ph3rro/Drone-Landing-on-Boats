@@ -1,0 +1,120 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"gz_install_all_headers"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzInstallAllHeaders.cmake",
+			"include/gz/waves/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/components",
+			"paths" : 
+			[
+				"include/gz/waves/components/Wavefield.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves",
+			"paths" : 
+			[
+				"include/gz/waves/Algorithm.hh",
+				"include/gz/waves/CGALTypes.hh",
+				"include/gz/waves/Convert.hh",
+				"include/gz/waves/Geometry.hh",
+				"include/gz/waves/Grid.hh",
+				"include/gz/waves/LinearRandomFFTWaveSimulation.hh",
+				"include/gz/waves/LinearRandomWaveSimulation.hh",
+				"include/gz/waves/LinearRegularWaveSimulation.hh",
+				"include/gz/waves/MeshTools.hh",
+				"include/gz/waves/OceanTile.hh",
+				"include/gz/waves/PhysicalConstants.hh",
+				"include/gz/waves/Physics.hh",
+				"include/gz/waves/TriangulatedGrid.hh",
+				"include/gz/waves/TrochoidIrregularWaveSimulation.hh",
+				"include/gz/waves/Types.hh",
+				"include/gz/waves/Utilities.hh",
+				"include/gz/waves/WaveParameters.hh",
+				"include/gz/waves/WaveSimulation.hh",
+				"include/gz/waves/WaveSpectrum.hh",
+				"include/gz/waves/WaveSpreadingFunction.hh",
+				"include/gz/waves/Wavefield.hh",
+				"include/gz/waves/WavefieldSampler.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/../waves.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/config.hh"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/gz/waves",
+		"source" : "include/gz/waves"
+	}
+}

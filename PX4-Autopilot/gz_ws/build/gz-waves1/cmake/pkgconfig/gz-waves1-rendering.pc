@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/waves1
+
+Name: Gazebo waves rendering
+Description: A set of waves rendering classes for robot applications
+Version: 1.0.0
+Requires: gz-waves1 = 1.0.0
+Requires.private: 
+Libs: -L${libdir} -lgz-waves1-rendering 
+Libs.private: 
+CFLags: -I${includedir} 

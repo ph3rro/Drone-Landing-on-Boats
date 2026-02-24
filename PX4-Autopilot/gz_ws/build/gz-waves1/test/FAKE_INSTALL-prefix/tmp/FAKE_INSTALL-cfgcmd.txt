@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DBUILD_TESTING=OFF;-DCMAKE_INSTALL_PREFIX=/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/fake/install;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

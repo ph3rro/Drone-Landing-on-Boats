@@ -1,0 +1,180 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_gz_add_library_or_component",
+			"gz_create_core_library",
+			"_gz_create_cmake_package",
+			"_gz_create_pkgconfig"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzCreateCoreLibrary.cmake",
+			"src/CMakeLists.txt",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 343,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 371,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 165,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 228,
+				"parent" : 9
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves/detail",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/detail/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "headers",
+			"destination" : "include/gz/waves1/gz/waves",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include/gz/waves/Export.hh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1.so.1.0.0",
+				"lib/libgz-waves1.so.1"
+			],
+			"targetId" : "gz-waves1::@145eef247bfb46b6828c",
+			"targetIndex" : 59,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libgz-waves1.so"
+			],
+			"targetId" : "gz-waves1::@145eef247bfb46b6828c",
+			"targetIndex" : 59,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "cmake",
+			"destination" : "lib/cmake/gz-waves1",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-config.cmake",
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/gz-waves1-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/gz-waves1",
+			"exportName" : "gz-waves1",
+			"exportTargets" : 
+			[
+				{
+					"id" : "gz-waves1::@145eef247bfb46b6828c",
+					"index" : 59
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/0ceb622fb857a2fb3432b2f869f00b89/gz-waves1-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "pkgconfig",
+			"destination" : "/home/pherro/PX4-Autopilot/gz_ws/install/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/cmake/pkgconfig/gz-waves1.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

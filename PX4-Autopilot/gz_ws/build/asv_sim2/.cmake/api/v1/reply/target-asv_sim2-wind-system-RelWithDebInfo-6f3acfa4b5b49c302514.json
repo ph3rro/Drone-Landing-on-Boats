@@ -1,0 +1,1440 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libasv_sim2-wind-system.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_gz_add_library_or_component",
+			"gz_add_component",
+			"gz_add_system",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"gz_find_package",
+			"find_dependency",
+			"set_property",
+			"_populate_Quick_target_properties",
+			"_populate_Qml_target_properties",
+			"gz_import_target",
+			"gz_pkg_check_modules_quiet",
+			"add_compile_options",
+			"_gz_set_sse_flags",
+			"_gz_set_compiler_flags",
+			"gz_configure_build",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzUtils.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzAddComponent.cmake",
+			"src/systems/CMakeLists.txt",
+			"src/systems/wind/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-sim8/gz-sim8-targets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-sim8/gz-sim8-config.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake",
+			"CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2-loader/gz-plugin2-loader-config.cmake",
+			"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-plugin2/gz-plugin2-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-gui8/gz-gui8-targets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-gui8/gz-gui8-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-physics7/gz-physics7-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-rendering8/gz-rendering8-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-sensors8/gz-sensors8-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-events/gz-common5-events-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5/gz-common5-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-testing/gz-common5-testing-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-fuel_tools9/gz-fuel_tools9-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-graphics/gz-common5-graphics-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-av/gz-common5-av-targets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-av/gz-common5-av-config.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzImportTarget.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindSWSCALE.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindAVDEVICE.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindAVFORMAT.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindAVCODEC.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindAVUTIL.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-transport13-parameters/gz-transport13-parameters-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-transport13/gz-transport13-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-profiler/gz-common5-profiler-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5/gz-common5-targets.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindUUID.cmake",
+			"src/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-math7/gz-math7-config.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindTINYXML2.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-msgs10/gz-msgs10-config.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzSetCompilerFlags.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 125,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 71,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 98,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 14
+			},
+			{
+				"file" : 10,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 201,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"file" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 125,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 98,
+				"parent" : 10
+			},
+			{
+				"file" : 12,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 141,
+				"parent" : 22
+			},
+			{
+				"file" : 11,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 71,
+				"parent" : 24
+			},
+			{
+				"command" : 8,
+				"file" : 12,
+				"line" : 101,
+				"parent" : 22
+			},
+			{
+				"file" : 14,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 28,
+				"parent" : 27
+			},
+			{
+				"file" : 13,
+				"parent" : 28
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 213,
+				"parent" : 29
+			},
+			{
+				"command" : 11,
+				"file" : 13,
+				"line" : 57,
+				"parent" : 30
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 111,
+				"parent" : 29
+			},
+			{
+				"file" : 16,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 16,
+				"line" : 111,
+				"parent" : 33
+			},
+			{
+				"file" : 15,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 15,
+				"line" : 213,
+				"parent" : 35
+			},
+			{
+				"command" : 11,
+				"file" : 15,
+				"line" : 57,
+				"parent" : 36
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 100,
+				"parent" : 10
+			},
+			{
+				"file" : 17,
+				"parent" : 38
+			},
+			{
+				"command" : 6,
+				"file" : 17,
+				"line" : 141,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 137,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 120,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 42
+			},
+			{
+				"file" : 19,
+				"parent" : 43
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 96,
+				"parent" : 44
+			},
+			{
+				"file" : 18,
+				"parent" : 45
+			},
+			{
+				"command" : 6,
+				"file" : 18,
+				"line" : 141,
+				"parent" : 46
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 103,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 48
+			},
+			{
+				"file" : 21,
+				"parent" : 49
+			},
+			{
+				"command" : 10,
+				"file" : 21,
+				"line" : 203,
+				"parent" : 50
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 51
+			},
+			{
+				"file" : 20,
+				"parent" : 52
+			},
+			{
+				"command" : 6,
+				"file" : 20,
+				"line" : 126,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 97,
+				"parent" : 10
+			},
+			{
+				"file" : 23,
+				"parent" : 55
+			},
+			{
+				"command" : 8,
+				"file" : 23,
+				"line" : 98,
+				"parent" : 56
+			},
+			{
+				"file" : 21,
+				"parent" : 57
+			},
+			{
+				"command" : 10,
+				"file" : 21,
+				"line" : 203,
+				"parent" : 58
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 59
+			},
+			{
+				"file" : 22,
+				"parent" : 60
+			},
+			{
+				"command" : 6,
+				"file" : 22,
+				"line" : 142,
+				"parent" : 61
+			},
+			{
+				"command" : 10,
+				"file" : 21,
+				"line" : 203,
+				"parent" : 50
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 63
+			},
+			{
+				"file" : 24,
+				"parent" : 64
+			},
+			{
+				"command" : 6,
+				"file" : 24,
+				"line" : 127,
+				"parent" : 65
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 96,
+				"parent" : 10
+			},
+			{
+				"file" : 21,
+				"parent" : 67
+			},
+			{
+				"command" : 10,
+				"file" : 21,
+				"line" : 203,
+				"parent" : 68
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 69
+			},
+			{
+				"file" : 26,
+				"parent" : 70
+			},
+			{
+				"command" : 7,
+				"file" : 26,
+				"line" : 125,
+				"parent" : 71
+			},
+			{
+				"file" : 25,
+				"parent" : 72
+			},
+			{
+				"command" : 6,
+				"file" : 25,
+				"line" : 71,
+				"parent" : 73
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 114,
+				"parent" : 71
+			},
+			{
+				"file" : 29,
+				"parent" : 75
+			},
+			{
+				"command" : 15,
+				"file" : 29,
+				"line" : 19,
+				"parent" : 76
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 77
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 78
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 115,
+				"parent" : 71
+			},
+			{
+				"file" : 30,
+				"parent" : 80
+			},
+			{
+				"command" : 15,
+				"file" : 30,
+				"line" : 23,
+				"parent" : 81
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 82
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 83
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 116,
+				"parent" : 71
+			},
+			{
+				"file" : 31,
+				"parent" : 85
+			},
+			{
+				"command" : 15,
+				"file" : 31,
+				"line" : 19,
+				"parent" : 86
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 87
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 88
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 117,
+				"parent" : 71
+			},
+			{
+				"file" : 32,
+				"parent" : 90
+			},
+			{
+				"command" : 15,
+				"file" : 32,
+				"line" : 19,
+				"parent" : 91
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 92
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 93
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 118,
+				"parent" : 71
+			},
+			{
+				"file" : 33,
+				"parent" : 95
+			},
+			{
+				"command" : 15,
+				"file" : 33,
+				"line" : 19,
+				"parent" : 96
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 97
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 98
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 94,
+				"parent" : 10
+			},
+			{
+				"file" : 35,
+				"parent" : 100
+			},
+			{
+				"command" : 10,
+				"file" : 35,
+				"line" : 206,
+				"parent" : 101
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 102
+			},
+			{
+				"file" : 34,
+				"parent" : 103
+			},
+			{
+				"command" : 6,
+				"file" : 34,
+				"line" : 125,
+				"parent" : 104
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 94,
+				"parent" : 44
+			},
+			{
+				"file" : 21,
+				"parent" : 106
+			},
+			{
+				"command" : 10,
+				"file" : 21,
+				"line" : 203,
+				"parent" : 107
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 108
+			},
+			{
+				"file" : 36,
+				"parent" : 109
+			},
+			{
+				"command" : 6,
+				"file" : 36,
+				"line" : 125,
+				"parent" : 110
+			},
+			{
+				"command" : 7,
+				"file" : 21,
+				"line" : 134,
+				"parent" : 50
+			},
+			{
+				"file" : 37,
+				"parent" : 112
+			},
+			{
+				"command" : 6,
+				"file" : 37,
+				"line" : 71,
+				"parent" : 113
+			},
+			{
+				"command" : 8,
+				"file" : 21,
+				"line" : 94,
+				"parent" : 50
+			},
+			{
+				"file" : 38,
+				"parent" : 115
+			},
+			{
+				"command" : 15,
+				"file" : 38,
+				"line" : 21,
+				"parent" : 116
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 117
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 118
+			},
+			{
+				"file" : 39
+			},
+			{
+				"command" : 5,
+				"file" : 39,
+				"line" : 22,
+				"parent" : 120
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 93,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 122
+			},
+			{
+				"file" : 40,
+				"parent" : 123
+			},
+			{
+				"command" : 6,
+				"file" : 40,
+				"line" : 146,
+				"parent" : 124
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 110,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 126
+			},
+			{
+				"file" : 42,
+				"parent" : 127
+			},
+			{
+				"command" : 8,
+				"file" : 42,
+				"line" : 95,
+				"parent" : 128
+			},
+			{
+				"file" : 41,
+				"parent" : 129
+			},
+			{
+				"command" : 15,
+				"file" : 41,
+				"line" : 22,
+				"parent" : 130
+			},
+			{
+				"command" : 14,
+				"file" : 28,
+				"line" : 187,
+				"parent" : 131
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 141,
+				"parent" : 132
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 196,
+				"parent" : 7
+			},
+			{
+				"command" : 18,
+				"file" : 44,
+				"line" : 101,
+				"parent" : 134
+			},
+			{
+				"command" : 17,
+				"file" : 43,
+				"line" : 69,
+				"parent" : 135
+			},
+			{
+				"command" : 16,
+				"file" : 43,
+				"line" : 250,
+				"parent" : 136
+			},
+			{
+				"command" : 16,
+				"file" : 43,
+				"line" : 252,
+				"parent" : 136
+			},
+			{
+				"command" : 16,
+				"file" : 43,
+				"line" : 258,
+				"parent" : 136
+			},
+			{
+				"command" : 16,
+				"file" : 43,
+				"line" : 262,
+				"parent" : 136
+			},
+			{
+				"command" : 16,
+				"file" : 43,
+				"line" : 267,
+				"parent" : 136
+			},
+			{
+				"command" : 16,
+				"file" : 43,
+				"line" : 271,
+				"parent" : 136
+			},
+			{
+				"command" : 20,
+				"file" : 44,
+				"line" : 119,
+				"parent" : 134
+			},
+			{
+				"command" : 20,
+				"file" : 44,
+				"line" : 122,
+				"parent" : 134
+			},
+			{
+				"command" : 21,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+				},
+				{
+					"backtrace" : 137,
+					"fragment" : "-msse"
+				},
+				{
+					"backtrace" : 137,
+					"fragment" : "-msse2"
+				},
+				{
+					"backtrace" : 138,
+					"fragment" : "-mfpmath=sse"
+				},
+				{
+					"backtrace" : 139,
+					"fragment" : "-msse3"
+				},
+				{
+					"backtrace" : 140,
+					"fragment" : "-mssse3"
+				},
+				{
+					"backtrace" : 141,
+					"fragment" : "-msse4.1"
+				},
+				{
+					"backtrace" : 142,
+					"fragment" : "-msse4.2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-I/usr/include/uuid"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-I/usr/include"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-I/usr/include/x86_64-linux-gnu"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_PYBIND11"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"define" : "asv_sim2_wind_system_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 143,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/src/asv_sim/asv_sim_gazebo_plugins/include"
+				},
+				{
+					"backtrace" : 144,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/include"
+				},
+				{
+					"backtrace" : 145,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/wind-system/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/core/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/src"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/common5"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/utils2"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/uuid"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/sim8"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/math7"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/plugin2"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/fuel_tools9"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/msgs10"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/gui8"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/transport13"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/physics7"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/rendering8"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/sdformat14"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6,
+					6,
+					6
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "asv_sim2::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "asv_sim2-wind-system::@c8167384aed08fc5140b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/pherro/PX4-Autopilot/gz_ws/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/pherro/PX4-Autopilot/gz_ws/build/asv_sim2/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.9.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../lib/libasv_sim2.so.2.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-gui8.so.8.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5QuickControls2.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5QmlModels.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-physics7.so.7.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-rendering8.so.8.2.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 62,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 66,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 62,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-av.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libswscale.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 79,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libswscale.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 84,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavformat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 89,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavformat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 94,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 74,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavutil.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 99,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libavutil.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 62,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-io.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 62,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-testing.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 105,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.4.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.4.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 111,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 114,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 119,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 114,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 121,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 125,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 114,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 133,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "asv_sim2-wind-system",
+	"nameOnDisk" : "libasv_sim2-wind-system.so",
+	"paths" : 
+	{
+		"build" : "src/systems/wind",
+		"source" : "src/systems/wind"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/systems/wind/Wind.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

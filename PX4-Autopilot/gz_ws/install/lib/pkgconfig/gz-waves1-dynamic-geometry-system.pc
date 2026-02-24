@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../
+libdir=${prefix}/lib
+includedir=${prefix}/include/gz/waves1
+
+Name: Gazebo waves dynamic-geometry-system
+Description: A set of waves dynamic-geometry-system classes for robot applications
+Version: 1.0.0
+Requires: 
+Requires.private: 
+Libs: -L${libdir} -lgz-waves1-dynamic-geometry-system 
+Libs.private: 
+CFLags: -I${includedir} 

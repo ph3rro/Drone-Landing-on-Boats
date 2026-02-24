@@ -1,0 +1,809 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/PERFORMANCE_LinearRegularWaveSimDisplacements"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"gz_build_executables",
+			"gz_build_tests",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"find_dependency",
+			"gz_find_package",
+			"include",
+			"gz_import_target",
+			"gz_pkg_check_modules_quiet",
+			"use_CGAL_GMP_support",
+			"CGAL_setup_CGAL_Core_dependencies",
+			"CGAL_setup_target_dependencies",
+			"add_compile_options",
+			"_gz_set_sse_flags",
+			"_gz_set_compiler_flags",
+			"gz_configure_build",
+			"target_compile_definitions",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/gz-cmake3/cmake3/GzBuildExecutables.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzBuildTests.cmake",
+			"test/performance/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-graphics/gz-common5-graphics-config.cmake",
+			"/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5/gz-common5-config.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake",
+			"CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5-profiler/gz-common5-profiler-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-sim8/gz-sim8-config.cmake",
+			"src/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-msgs10/gz-msgs10-targets.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-msgs10/gz-msgs10-config.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzImportTarget.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindTINYXML2.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-common5/gz-common5-targets.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/FindUUID.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/gz-math7/gz-math7-config.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupGMP.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_SetupCGAL_CoreDependencies.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/CGAL/CGAL_setup_target_dependencies.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/CGAL/CGALConfig.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzSetCompilerFlags.cmake",
+			"/usr/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/CGAL/UseCGAL.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 146,
+				"parent" : 1
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 203,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 76,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 127,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 133,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 15
+			},
+			{
+				"file" : 9,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 96,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 203,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 76,
+				"parent" : 20
+			},
+			{
+				"file" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 125,
+				"parent" : 22
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 55,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 118,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 26
+			},
+			{
+				"file" : 12,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 12,
+				"line" : 135,
+				"parent" : 28
+			},
+			{
+				"file" : 11,
+				"parent" : 29
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 71,
+				"parent" : 30
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 95,
+				"parent" : 28
+			},
+			{
+				"file" : 15,
+				"parent" : 32
+			},
+			{
+				"command" : 10,
+				"file" : 15,
+				"line" : 22,
+				"parent" : 33
+			},
+			{
+				"command" : 9,
+				"file" : 14,
+				"line" : 187,
+				"parent" : 34
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 141,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 134,
+				"parent" : 10
+			},
+			{
+				"file" : 16,
+				"parent" : 37
+			},
+			{
+				"command" : 4,
+				"file" : 16,
+				"line" : 71,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 94,
+				"parent" : 10
+			},
+			{
+				"file" : 17,
+				"parent" : 40
+			},
+			{
+				"command" : 10,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 14,
+				"line" : 187,
+				"parent" : 42
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 141,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 101,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 243,
+				"parent" : 45
+			},
+			{
+				"file" : 18,
+				"parent" : 46
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 146,
+				"parent" : 47
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 240,
+				"parent" : 7
+			},
+			{
+				"file" : 22,
+				"parent" : 49
+			},
+			{
+				"command" : 13,
+				"file" : 22,
+				"line" : 185,
+				"parent" : 50
+			},
+			{
+				"command" : 12,
+				"file" : 21,
+				"line" : 5,
+				"parent" : 51
+			},
+			{
+				"command" : 11,
+				"file" : 20,
+				"line" : 57,
+				"parent" : 52
+			},
+			{
+				"command" : 3,
+				"file" : 19,
+				"line" : 70,
+				"parent" : 53
+			},
+			{
+				"command" : 3,
+				"file" : 19,
+				"line" : 73,
+				"parent" : 53
+			},
+			{
+				"command" : 17,
+				"file" : 7,
+				"line" : 295,
+				"parent" : 7
+			},
+			{
+				"command" : 16,
+				"file" : 24,
+				"line" : 101,
+				"parent" : 56
+			},
+			{
+				"command" : 15,
+				"file" : 23,
+				"line" : 69,
+				"parent" : 57
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 250,
+				"parent" : 58
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 252,
+				"parent" : 58
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 258,
+				"parent" : 58
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 262,
+				"parent" : 58
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 267,
+				"parent" : 58
+			},
+			{
+				"command" : 14,
+				"file" : 23,
+				"line" : 271,
+				"parent" : 58
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 149,
+				"parent" : 1
+			},
+			{
+				"command" : 19,
+				"file" : 7,
+				"line" : 271,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 251,
+				"parent" : 7
+			},
+			{
+				"file" : 25,
+				"parent" : 67
+			},
+			{
+				"command" : 20,
+				"file" : 25,
+				"line" : 30,
+				"parent" : 68
+			},
+			{
+				"command" : 20,
+				"file" : 24,
+				"line" : 119,
+				"parent" : 56
+			},
+			{
+				"command" : 20,
+				"file" : 24,
+				"line" : 122,
+				"parent" : 56
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fvisibility=default"
+				},
+				{
+					"backtrace" : 59,
+					"fragment" : "-msse"
+				},
+				{
+					"backtrace" : 59,
+					"fragment" : "-msse2"
+				},
+				{
+					"backtrace" : 60,
+					"fragment" : "-mfpmath=sse"
+				},
+				{
+					"backtrace" : 61,
+					"fragment" : "-msse3"
+				},
+				{
+					"backtrace" : 62,
+					"fragment" : "-mssse3"
+				},
+				{
+					"backtrace" : 63,
+					"fragment" : "-msse4.1"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-msse4.2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-frounding-math"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-I/usr/include"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-I/usr/include/uuid"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "CGAL_USE_CORE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CGAL_USE_GMPXX=1"
+				},
+				{
+					"backtrace" : 65,
+					"define" : "TESTING_PROJECT_SOURCE_DIR=\"/home/pherro/PX4-Autopilot/gz_ws/src/asv_wave_sim/gz-waves\""
+				},
+				{
+					"backtrace" : 66,
+					"define" : "USE_FFTW3"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 69,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/src/asv_wave_sim/gz-waves/include"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/include"
+				},
+				{
+					"backtrace" : 72,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/src/asv_wave_sim/gz-waves"
+				},
+				{
+					"backtrace" : 72,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/src/asv_wave_sim/gz-waves/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/core/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/math7"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/utils2"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/msgs10"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/common5"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/uuid"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/transport13"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/include/gz/sdformat14"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/pherro/PX4-Autopilot/gz_ws/src/asv_wave_sim/gz-waves/test/gtest_vendor/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					4,
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gz-waves1::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gtest::@46b096d93c2671ddab64"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gtest_main::@46b096d93c2671ddab64"
+		}
+	],
+	"id" : "PERFORMANCE_LinearRegularWaveSimDisplacements::@6c78fc79072062b569bb",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/pherro/PX4-Autopilot/gz_ws/build/gz-waves1/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../lib/libgz-waves1.so.1.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../lib/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../lib/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.4.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.3.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfftw3.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../lib/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmpxx.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libmpfr.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmp.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PERFORMANCE_LinearRegularWaveSimDisplacements",
+	"nameOnDisk" : "PERFORMANCE_LinearRegularWaveSimDisplacements",
+	"paths" : 
+	{
+		"build" : "test/performance",
+		"source" : "test/performance"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "test/performance/LinearRegularWaveSimDisplacements.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
